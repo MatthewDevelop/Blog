@@ -157,8 +157,8 @@ menu_settings:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+#scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -501,7 +501,7 @@ pangu: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 20ddc50641f48934dffc04f18ed1bc1d
 
 # Growingio Analytics ID
 # Copyright 2015-2018 GrowingIO, Inc. More info available at http://www.growingio.com
@@ -710,7 +710,7 @@ baidu_push: false
 # api_key: https://console.developers.google.com
 # Create & manage a public Google calendar: https://support.google.com/calendar/answer/37083?hl=en
 calendar:
-  enable: false
+  enable: true
   calendar_id: <required> # Your Google account E-Mail
   api_key: <required>
   orderBy: startTime
