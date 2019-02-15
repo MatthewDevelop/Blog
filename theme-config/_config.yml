@@ -277,8 +277,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: true
-  length: 300
+  enable: false
+  length: 150
 
 # Read more button
 # If true, the read more button would be displayed in excerpt section.

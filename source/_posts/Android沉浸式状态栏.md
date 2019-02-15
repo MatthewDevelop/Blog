@@ -12,6 +12,8 @@ tags:
 
 >Android 4.4一下无法实现状态栏沉浸。
 
+<!-- more -->
+
 
 
 下面的方法适用于Android4.4以上的状态沉浸，需要在setContentView()方法后调用

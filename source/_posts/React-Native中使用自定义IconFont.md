@@ -9,6 +9,8 @@ tags:
 
 > 初学React Native，在App中有一个TabBar需要用到图标。平时在开发Android时TabBar图标基本不用图片，都是使用字体图标替代图片，字体图标有自适应屏幕的特性，不会再不同分辨率上失真，从而免去了适配不同分辨率手机的困扰。所以在想React Native中是否可以使用字体图标，研究了一下，果然可行，记录如下。
 
+<!-- more -->
+
 用到的工具类库和资源：
 
 - [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
