@@ -2,6 +2,9 @@
 title: Android面试笔记
 date: 2019-03-05 11:00:12
 tags:
+    - Android
+    - 面试
+    - 总结
 ---
 
 > 记录Android面试中可能会遇到的面试题目和答案
