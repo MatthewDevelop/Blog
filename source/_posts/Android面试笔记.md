@@ -85,7 +85,7 @@ Handler，Message，looper 和 MessageQueue 构成了安卓的消息机制，han
 6. 减少内存泄漏也是一种避免OOM的方法
 
 ### Activity
-####启动模式
+#### 启动模式
 * **Standard 模式**:
     Activity 可以有多个实例，每次启动 Activity，无论任务栈中是否已经有这个Activity的实例，系统都会创建一个新的Activity实例。
 * **SingleTop模式**:
@@ -160,7 +160,10 @@ GLSurfaceView：基于SurfaceView视图再次进行拓展的视图类，专用�
 - 单例模式：
 - 生产者消费者模式：
 
-###进程
+
+### 进程
+
+
 #### 如何实现进程保活
 
 - Service 设置成 START_STICKY kill 后会被重启(等待5秒左右)，重传Intent，保持与重启前一样
