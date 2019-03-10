@@ -78,10 +78,12 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:MatthewDevelop/matthewdevelop.github.io.git
+- type: git
+  repo: 
+    github: git@github.com:MatthewDevelop/matthewdevelop.github.io.git
+    coding: git@git.dev.tencent.com:MatthewDev/MatthewDev.git
   branch: master
-  
+
 #search
 search:
     path: search.xml
