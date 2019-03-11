@@ -27,6 +27,8 @@ Java中有三种创建线程的方式，或者说四种:
 - 判断线程数是否达到了最大值，如果不是，则创建非核心线程执行任务，否则执行饱和策略，默认抛出异常 
 
 ### Handler
+> 这篇博客讲解Handler非常详细：
+> [Handler都没搞懂，拿什么去跳槽啊？！](https://mp.weixin.qq.com/s/8Ox_zAbgBwb3J0lAdE0gIw)
 #### Handler工作原理
 Handler，Message，looper 和 MessageQueue 构成了安卓的消息机制，handler创建后可以通过 sendMessage 将消息加入消息队列，然后 looper不断的将消息从 MessageQueue 中取出来，回调到 Hander 的 handleMessage方法，从而实现线程的通信。
 
