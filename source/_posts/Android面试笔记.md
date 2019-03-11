@@ -221,6 +221,24 @@ Application构造方法 –> attachBaseContext()–>onCreate –>Activity构造�
     ```
     3. 以上两种方法是在视觉上显得更快，但其实只是一种表象，让应用启动的更快，有一种思路，将 Application 中的不必要的初始化动作实现懒加载，比如，在SpashActivity 显示后再发送消息到 Application，去初始化，这样可以将初始化的动作放在后边，缩短应用启动到用户看到界面的时间
 
+### ANR
+#### 导致ANR的原因
+1. 耗时的网络访问
+2. 大量的数据读写
+3. 数据库操作
+4. 硬件操作（比如camera)
+5. 调用thread的join()方法、sleep()方法、wait()方法或者等待线程锁的时候
+6. service binder的数量达到上限
+7. system server中发生WatchDog ANR
+8. service忙导致超时无响应
+9. 其他线程持有锁，导致主线程等待超时
+10. 其它线程终止或崩溃导致主线程一直等待
+
+### 缓存
+#### 三级缓存原理
+当 Android 端需要获得数据时比如获取网络中的图片，首先从内存中查找（按键查找），内存中没有的再从磁盘文件或sqlite中去查找，若磁盘中也没有才通过网络获取
+
+
 
 ### 引用
 - [2.2019Android高级面试题总结](https://www.jianshu.com/p/461bf99964ec)
