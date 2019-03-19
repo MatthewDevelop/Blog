@@ -37,3 +37,17 @@ tags:
 `git push origin --delete BranchName`
 - 删除本地分支
 `git branch -d BranchName`
+
+# 本地仓库关联到远程仓库
+1. 首先拿到远程仓库的地址
+    > 以GitHub为例：`git@github.com:[username]/[repository name]`
+2. 将本地代码转换为Git仓库  
+    > `git init`
+3. 将本地仓库关联到远程仓库
+    > `git remote add origin [remote address]`
+4. 同步远程仓库,和远程分支关联
+    > `git pull origin master`
+5. 提交代码
+    > `git add ` 和 `git commit`
+6. 推送到远程仓库
+    > `git push origin master`
