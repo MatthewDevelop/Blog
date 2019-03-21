@@ -90,3 +90,10 @@ search:
     field: post
     format: html
     limit: 10000
+
+#Google Search
+sitemap:
+    path: sitemap.xml
+#BaiduSearch
+baidusitemap:
+    path: baidusitemap.xml
