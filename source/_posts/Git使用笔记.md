@@ -5,15 +5,18 @@ tags:
     - Git
 ---
 
+![封面](https://picjumbo.com/wp-content/uploads/iceland-shoreline-landscape-2210x1473.jpg)
+
+
 > 记录Git使用过程中的一些操作指令
 
 
+<!-- more -->
 
 # 标签
 - 创建标签  
 `git tag <Tag Name>` 默认在最后的提交上打Tag        
 `git tag <Tag Name> <SHA-1 Code>` 指定在某一笔提交上打Tag
-<!-- more -->
 - 创建带注释的Tag
 `git tag -a <Tag Name> -m <Tag Message> <SHA-1 Code>`
 - 查看Tag
