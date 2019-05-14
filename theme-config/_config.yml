@@ -198,7 +198,7 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/MatthewDevelop || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  E-Mail: mailto:guocheng0816@163.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -216,11 +216,12 @@ social_icons:
 
 # Blog rolls
 links_icon: link
-links_title: Links
-links_layout: block
-#links_layout: inline
+links_title: 友情链接
+#links_layout: block
+links_layout: inline
 links:
-  #Title: http://example.com
+  llcat: http://llcat.tech
+  rh: https://jarh.tech/
 
 # Sidebar Avatar
 avatar:
