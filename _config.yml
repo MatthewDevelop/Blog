@@ -100,3 +100,10 @@ sitemap:
 #BaiduSearch
 baidusitemap:
     path: baidusitemap.xml
+
+#字数统计
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
