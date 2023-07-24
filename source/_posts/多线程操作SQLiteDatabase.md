@@ -22,7 +22,7 @@ tags:
 
 过了一个小时，刷新了一下bugly，我靠，真的有bug。如下图：
 
-![bugly](http://ww1.sinaimg.cn/large/006KjR9nly1g8zz3xty8gj30os0580tc.jpg)
+![db_error](/images/db_error.jpg)
 
 错误提示非常明显：不能执行操作，因为数据链接池已经关闭。
 
