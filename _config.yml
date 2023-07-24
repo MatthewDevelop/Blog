@@ -84,7 +84,6 @@ deploy:
 - type: git
   repo: 
     github: git@github.com:MatthewDevelop/matthewdevelop.github.io.git
-    coding: git@git.dev.tencent.com:MatthewDev/MatthewDev.git
   branch: master
 
 #search
